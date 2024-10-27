@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Siemreap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Siemreap&display=swap');
+
+.moulpali-font{
+	font-family: "Siemreap", sans-serif;
+}
+
+.siemreap-font{
+	font-family: "Siemreap", sans-serif;
+}
+
+.moul-font{
+	font-family: "Moul", serif;
+}
+
+/* ----------------Hero----------------- */
+.lh{
+	line-height: 30px !important;
+}
+
+.hero{
+	height: 100vh !important;
+}
+
+@media (min-width:768px){
+	.hero{
+		height: 80vh !important;
+	}
+}
+
+@media (min-width:992px){
+	.hero{
+		height: 100vh !important;
+	}
+}
+
+/* ---------------Drop down------------------ */
+.list-sign{
+	width: 90px;
+	display: none;
+	position: absolute;
+}
+
+.access:hover .list-sign{
+	display: block;
+}
+
+/* ---------------offcanvas responsive-------------- */
+@media (max-width: 576px){
+	.offcanvas{
+		width: 80% !important;
+	}
+}
+
+/* -------------top-destination style------------ */
+.top-destination{
+	/* height: 100vh; */
+	background-image: url(https://i.pinimg.com/originals/ca/db/f0/cadbf02093dd8e7b4c9e74107ba7b27a.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(104%); 
+}
+
+.blur{
+	height: 40px;
+	background-color: white;
+	top: -20px;
+	filter: blur(4px);
+}
+
+/* ---------------top destination scroll------------- */
+@media (min-width: 992px){
+	.scroll-card{
+		overflow-x: hidden !important;
+	}
+}
+
+.image-card{
+	height: 55vh;
+}
+
+.brightness{
+	filter: brightness(75%) !important;
+
+}
+
+.transition{
+	transition: 0.3s ease-in-out;
+}
+
+.hover-card:hover{
+	box-shadow: 0 0 15px grey !important;
+}
+
+.hover-card:hover img{
+	transform: scale(1.5);
+}
+
+@media (max-width: 1208px){
+	.image-card{
+		height: 40vh;
+	}
+}
+
+@media (min-width: 1280px){
+	.scroll-card{
+		overflow-x: hidden !important;
+	}
+}
+
+/* --------------Place style---------------- */
+.place{
+	/* height: 100vh; */
+	background-image: url(https://static.vecteezy.com/system/resources/previews/006/662/397/non_2x/cambodia-famous-landmark-silhouette-style-with-text-inside-vector.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.place > .blur-bg{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.461);
+}
+
+/* -----------------------card style--------------------- */
+.image{
+	height: 180px;
+}
+
+.text-limit-2-line{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+			line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* ----------------contact us--------------- */
+input::placeholder{
+	color: gainsboro !important;
+}
+
+/* --------------------scroll-bar---------------- */
+::-webkit-scrollbar{
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: seagreen;
+	border-radius: 8px;
+}
